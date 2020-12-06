@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>ToDoList</title>
+</head>
+<body>
+    <i class="material-icons md-36 info">info</i>
+    <div class="tooltip active">This To-Do list is created for testing purposes. Each task you add will appear below the input field. You can then remove any task from the list by clicking the "X" button, or mark them as complete by clicking on them. Thanks!</div>
+    <div class="container">
+        <p  class="title">Insert your task below</p>
+        <div class="combined">
+            <input type="text" name="todo-input" placeholder="Add New Item" id="todoinput">
+            <button id="btn"><i class="material-icons md-36">add_task</i></button>
+        </div>
+        <p class="desc">Your list items: </p>
+        <div class="full-list">
+            <ul class="items">
+                
+            </ul>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
